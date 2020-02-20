@@ -1,4 +1,6 @@
 package healers;
 
-public abstract class Healer {
+import player.Player;
+
+public abstract class Healer extends Player {
 }

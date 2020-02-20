@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e19e468-d39b-4636-98e4-e003dc8ef20c" name="Default Changelist" comment="" />
+    <list default="true" id="0e19e468-d39b-4636-98e4-e003dc8ef20c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/healers/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/magicians/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicians/Magician.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Y4KseXeQvgdp9yQrGNq12eIDTs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,5 +58,11 @@
       <updated>1582196635056</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198882723">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582198882723" />
   </component>
 </project>
