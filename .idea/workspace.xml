@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e19e468-d39b-4636-98e4-e003dc8ef20c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EnemyRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GoblinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TreasureRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +48,52 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.KnightTest.armourReducedBeforeHealth">
-    <configuration name="ClericTest.canAddAndRemovePotions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GoblinTest.goblinCanBeKilled">
+    <configuration name="EnemyRoomTest.hasEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canAddAndRemovePotions" />
+      <option name="MAIN_CLASS_NAME" value="EnemyRoomTest" />
+      <option name="METHOD_NAME" value="hasEnemy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClericTest.canHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoblinTest.canGetHealthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canHeal" />
+      <option name="MAIN_CLASS_NAME" value="GoblinTest" />
+      <option name="METHOD_NAME" value="canGetHealthLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClericTest.hasHealthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoblinTest.canReduceHealthByAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="hasHealthLevel" />
+      <option name="MAIN_CLASS_NAME" value="GoblinTest" />
+      <option name="METHOD_NAME" value="canReduceHealthByAttack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.armourReducedBeforeHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoblinTest.goblinCanBeKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="armourReducedBeforeHealth" />
+      <option name="MAIN_CLASS_NAME" value="GoblinTest" />
+      <option name="METHOD_NAME" value="goblinCanBeKilled" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canAddArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreasureRoomTest.onceTreasureTakenRoomIsComplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canAddArmour" />
+      <option name="MAIN_CLASS_NAME" value="TreasureRoomTest" />
+      <option name="METHOD_NAME" value="onceTreasureTakenRoomIsComplete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KnightTest.armourReducedBeforeHealth" />
-        <item itemvalue="JUnit.KnightTest.canAddArmour" />
-        <item itemvalue="JUnit.ClericTest.canHeal" />
-        <item itemvalue="JUnit.ClericTest.canAddAndRemovePotions" />
-        <item itemvalue="JUnit.ClericTest.hasHealthLevel" />
+        <item itemvalue="JUnit.GoblinTest.goblinCanBeKilled" />
+        <item itemvalue="JUnit.GoblinTest.canReduceHealthByAttack" />
+        <item itemvalue="JUnit.EnemyRoomTest.hasEnemy" />
+        <item itemvalue="JUnit.GoblinTest.canGetHealthLevel" />
+        <item itemvalue="JUnit.TreasureRoomTest.onceTreasureTakenRoomIsComplete" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582209412941</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added armour feature for knight">
+      <created>1582210331850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582210331850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,33 +178,34 @@
     <MESSAGE value="fighter class tested via knight" />
     <MESSAGE value="wizard tests" />
     <MESSAGE value="cleric tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleric tests" />
+    <MESSAGE value="added armour feature for knight" />
+    <option name="LAST_COMMIT_MESSAGE" value="added armour feature for knight" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582208757511">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582212248851">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582208757511" />
-    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1582209412717">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582212248851" />
+    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1582210331635">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582209412717" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582210308975">
+    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582210331635" />
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582213432413">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582210308975" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582210308974">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582213432413" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582213432412">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582210308974" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582210308974">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582213432412" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582213432412">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582210308974" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582210308975">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582213432412" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582213432413">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582210308975" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582213432413" />
     <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582209434505">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
