@@ -1,4 +1,10 @@
 package enemies;
 
-public abstract class Enemy {
+import player.Player;
+
+public abstract class Enemy extends Player {
+
+    public Enemy(String name, int healthLevel) {
+        super(name, healthLevel);
+    }
 }

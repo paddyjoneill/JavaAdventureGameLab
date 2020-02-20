@@ -24,7 +24,29 @@ public abstract class Player {
         return healthLevel;
     }
 
+
+
     public ArrayList<Treasure> getTreasures() {
         return treasures;
+    }
+
+    public void reduceHealthLevel(int amount) {
+        this.healthLevel -= amount;
+    }
+
+    public void increaseHealth(int amount) {
+        this.healthLevel += amount;
+    }
+
+    public int treasureCount() {
+        return this.treasures.size();
+    }
+
+    public void addTreasure(Treasure treasure) {
+        this.treasures.add(treasure);
+    }
+
+    public void removeTreasure(Treasure treasure) {
+        this.treasures.remove(treasure);
     }
 }

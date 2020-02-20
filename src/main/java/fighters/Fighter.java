@@ -13,5 +13,16 @@ public abstract class Fighter extends Player {
         this.weapons = new ArrayList<Weapon>();
     }
 
+    public int weaponCount(){
+        return this.weapons.size();
+    }
 
+
+    public void addWeapon(Weapon weapon){
+        this.weapons.add(weapon);
+    }
+
+    public void removeWeapon(Weapon weapon) {
+        this.weapons.remove(weapon);
+    }
 }
