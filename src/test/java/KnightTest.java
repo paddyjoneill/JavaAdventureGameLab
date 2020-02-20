@@ -1,3 +1,4 @@
+import fighters.Dwarf;
 import fighters.Knight;
 import fighters.weapons.Axe;
 import fighters.weapons.Sword;
@@ -13,6 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class KnightTest {
 
     private Knight knight;
+    private Dwarf dwarf;
     private Weapon sword;
     private Weapon axe;
     private Treasure gold;
@@ -21,8 +23,9 @@ public class KnightTest {
     @Before
     public void before(){
         knight = new Knight("Brian", 100);
-        sword = new Sword();
-        axe = new Axe();
+        dwarf = new Dwarf("Luca", 50);
+        sword = new Sword(20);
+        axe = new Axe(25);
         gold = new Gold("Gold", 100);
         gems = new Gems("Diamonds", 1000);
     }
@@ -87,4 +90,13 @@ public class KnightTest {
         knight.removeTreasure(gold);
         assertEquals(1, knight.treasureCount());
     }
+
+    @Test
+    public void canAttackPlayer(){
+        knight.addWeapon(sword);
+        knight.attack(dwarf, sword);
+        assertEquals(30, dwarf.getHealthLevel());
+    }
+
+
 }

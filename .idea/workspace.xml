@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e19e468-d39b-4636-98e4-e003dc8ef20c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/IDamager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Goblin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enemies/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemies/Ogre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Barbarians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Barbarians.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/healers/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/healers/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/magicians/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicians/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/magicians/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicians/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasures/Gems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasures/Gems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasures/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasures/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasures/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasures/Treasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fighters/weapons/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fighters/weapons/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/magicians/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicians/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/magicians/spells/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/magicians/spells/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,51 +52,51 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.KnightTest">
-    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WizardTest.canAttack">
+    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canAddTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WizardTest.canAddAndRemoveCreatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canAddTreasure" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canAddAndRemoveCreatures" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canGetHealthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WizardTest.canAddAndRemoveSpells" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canGetHealthLevel" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canAddAndRemoveSpells" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canReduceHealthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WizardTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canReduceHealthLevel" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canAttack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.startsWithNoTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WizardTest.canIncreaseAndDecreaseHealthLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="startsWithNoTreasure" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="METHOD_NAME" value="canIncreaseAndDecreaseHealthLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KnightTest" />
-        <item itemvalue="JUnit.KnightTest.canAddTreasure" />
-        <item itemvalue="JUnit.KnightTest.startsWithNoTreasure" />
-        <item itemvalue="JUnit.KnightTest.canReduceHealthLevel" />
-        <item itemvalue="JUnit.KnightTest.canGetHealthLevel" />
+        <item itemvalue="JUnit.WizardTest.canAttack" />
+        <item itemvalue="JUnit.WizardTest.canIncreaseAndDecreaseHealthLevel" />
+        <item itemvalue="JUnit.WizardTest.canAddAndRemoveSpells" />
+        <item itemvalue="JUnit.WizardTest.canAddAndRemoveCreatures" />
+        <item itemvalue="JUnit.WizardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,42 +137,57 @@
       <option name="project" value="LOCAL" />
       <updated>1582199460069</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fighter class tested via knight">
+      <created>1582205462985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582205462985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fighter class tested via knight">
+      <created>1582205492532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582205492532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more files" />
     <MESSAGE value="even more files" />
-    <option name="LAST_COMMIT_MESSAGE" value="even more files" />
+    <MESSAGE value="fighter class tested via knight" />
+    <option name="LAST_COMMIT_MESSAGE" value="fighter class tested via knight" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582199581543">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1582207158549">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582199581543" />
-    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1582205462652">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582207158549" />
+    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1582205492226">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582205462652" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582205373670">
+    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582205492226" />
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582208561541">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582205373670" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582205373669">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582208561541" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582208561540">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582205373669" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582205373669">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582208561540" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582208561540">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582205373669" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582205373670">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582208561540" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582208561541">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582205373670" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582205470679">
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582208561541" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582205501109">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1582205470679" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1582205501109" />
   </component>
 </project>

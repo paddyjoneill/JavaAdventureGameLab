@@ -1,12 +1,18 @@
 package magicians.spells;
 
-public abstract class Spell {
+import interfaces.IDamager;
+
+public abstract class Spell implements IDamager {
 
     private String spellName;
-    private int damageValue;
+    private int damageLevel;
 
-    public Spell(String spellName, int damageValue) {
+    public Spell(String spellName, int damageLevel) {
         this.spellName = spellName;
-        this.damageValue = damageValue;
+        this.damageLevel = damageLevel;
+    }
+
+    public int getDamageLevel() {
+        return damageLevel;
     }
 }

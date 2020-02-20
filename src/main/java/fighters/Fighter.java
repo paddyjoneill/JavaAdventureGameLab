@@ -1,10 +1,12 @@
 package fighters;
 import fighters.weapons.Weapon;
+import interfaces.IAttack;
+import interfaces.IDamager;
 import player.Player;
 
 import java.util.ArrayList;
 
-public abstract class Fighter extends Player {
+public abstract class Fighter extends Player implements IAttack {
 
     private ArrayList<Weapon> weapons;
 
@@ -24,5 +26,9 @@ public abstract class Fighter extends Player {
 
     public void removeWeapon(Weapon weapon) {
         this.weapons.remove(weapon);
+    }
+
+    public void attack(Player player, IDamager iDamager){
+        player.reduceHealthLevel(iDamager.getDamageLevel());
     }
 }
