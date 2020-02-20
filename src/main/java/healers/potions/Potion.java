@@ -9,4 +9,8 @@ public abstract class Potion {
         this.name = name;
         this.restoreValue = restoreValue;
     }
+
+    public int getRestoreValue() {
+        return restoreValue;
+    }
 }
