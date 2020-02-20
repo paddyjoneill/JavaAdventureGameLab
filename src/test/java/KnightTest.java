@@ -98,5 +98,21 @@ public class KnightTest {
         assertEquals(30, dwarf.getHealthLevel());
     }
 
+    @Test
+    public void canAddArmour(){
+        knight.addArmour(50);
+        assertEquals(50, knight.getArmourLevel());
+    }
+
+    @Test
+    public void armourReducedBeforeHealth(){
+        knight.addArmour(30);
+        knight.reduceHealthLevel(20);
+        assertEquals(100, knight.getHealthLevel());
+        assertEquals(10, knight.getArmourLevel());
+        knight.reduceHealthLevel(20);
+        assertEquals(0, knight.getArmourLevel());
+        assertEquals(90, knight.getHealthLevel());
+    }
 
 }
